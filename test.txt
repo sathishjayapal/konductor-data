@@ -1,0 +1,4 @@
+    KAFKA_BOOTSTRAP_SERVERS: conduktor-gateway:6969
+      KAFKA_SCHEMA_REGISTRY_URL: http://redpanda-0:9081
+      GATEWAY_ADMIN_API: http://conduktor-gateway:9888
+    restart: on-failure
